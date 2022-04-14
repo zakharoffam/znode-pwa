@@ -1,9 +1,10 @@
 {
   "name": "znode-pwa",
-  "description": "PWA ZNode",
-  "author": "Anton Zakharov",
   "version": "0.1.0",
+  "description": "ZNode PWA",
+  "author": "Anton Zakharov",
   "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.2.7",
