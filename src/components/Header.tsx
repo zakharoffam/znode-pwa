@@ -2,6 +2,7 @@ import { FormControlLabel, Grid, styled, Switch, Typography } from "@mui/materia
 import { useRootDispatch, useRootSelector } from "../store";
 import { selectThemeMode, setThemeMode } from "../app.slice";
 import { ThemeMode } from "../theme";
+import { Link } from "react-router-dom";
 
 
 const ThemeModeSwitch = styled(Switch)(({ theme }) => ({
@@ -64,7 +65,13 @@ export function Header() {
       alignItems="center"
     >
       <Grid item>
-        <Typography sx={{ marginX: { xs: 2, md: 1 }}} variant="h5">ZNode<b>.</b></Typography>
+        <Typography sx={{ marginX: { xs: 2, md: 1 }}} variant="h5">
+          <Link
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            to="/">
+            ZNode<b>.</b>
+          </Link>
+        </Typography>
       </Grid>
       <Grid item>
         <FormControlLabel

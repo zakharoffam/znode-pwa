@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 
 export default function ErrorAppPage() {
-  document.title = 'ZNode. - Ошибка приложения'
+  document.title = 'ZNode. - Критическая ошибка'
 
   return (
     <Box>
-      Ошибка приложения
+      На странице возникла критическая ошибка. :(
     </Box>
   );
 }

@@ -5,7 +5,7 @@ export default function Error404Page() {
 
   return (
     <Box>
-      Страница 404
+      Такой страницы не существует. :(
     </Box>
   );
 }

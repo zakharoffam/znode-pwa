@@ -8,6 +8,7 @@ interface AppStore {
 
 const themeModeFromLocalStorage = localStorage.getItem('themeMode');
 
+
 const initState: AppStore = {
   themeMode: themeModeFromLocalStorage === ThemeMode.DARK ? ThemeMode.DARK : ThemeMode.LIGHT,
 };
