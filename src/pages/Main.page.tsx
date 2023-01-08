@@ -4,11 +4,8 @@ export default function MainPage() {
 
   return (
     <Box sx={{ paddingX: { xs: 2, md: 1 }}}>
-      <Typography paragraph>Ты в "узелке" различных pet-проектов.</Typography>
-      <Typography paragraph>
-        "Каких еще pet-проектов?" - спросишь ты. А мы пока сами не знаем 🙂. <br />
-        Заходи на <Link href="https://t.me/znoderu" target="_blank">канал</Link>, там все узнаешь самый первый.
-      </Typography>
+      <Typography paragraph><Link href="https://t.me/znoderu" target="_blank">ZNode.TChannel</Link> - бот.</Typography>
+      <Typography paragraph><Link href="https://t.me/ZNodeTBot" target="_blank">ZNode.TBot</Link> - бот.</Typography>
     </Box>
   );
 }
